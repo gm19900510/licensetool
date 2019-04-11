@@ -13,7 +13,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "licensetool",
-    version = "0.0.2",
+    version = "0.0.4",
     keywords = ("pip", "license","licensetool", "tool", "gm"),
     description = "设备指纹获取、license生成、指纹与有效期验证工具",
     long_description = "设备指纹获取、license生成、指纹与有效期验证工具",
