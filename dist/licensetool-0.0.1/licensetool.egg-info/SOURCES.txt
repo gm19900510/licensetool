@@ -1,0 +1,12 @@
+README.md
+setup.py
+licensetool/__init__.py
+licensetool/encrypt_tools.py
+licensetool/linux_tools.py
+licensetool/verify_tools.py
+licensetool/win_tools.py
+licensetool.egg-info/PKG-INFO
+licensetool.egg-info/SOURCES.txt
+licensetool.egg-info/dependency_links.txt
+licensetool.egg-info/requires.txt
+licensetool.egg-info/top_level.txt
