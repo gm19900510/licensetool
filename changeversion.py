@@ -3,9 +3,9 @@
 
 #############################################
 # File Name: setup.py
-# Author: xingming
-# Mail: huoxingming@gmail.com
-# Created Time:  2015-12-11 01:25:34 AM
+# Author: gm
+# Mail: 1025304567@qq.com
+# Created Time: 2019-04-11 15:37:04
 #############################################
 
 import os
