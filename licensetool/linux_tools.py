@@ -14,7 +14,7 @@ def getCpuId():
             d = dict([line.strip().split(': ')])
             lines.append(d)
         else:
-            break    
+            break
     return lines
 
 
@@ -30,5 +30,5 @@ def getBaseboardSerialnumber ():
             d = dict([line.strip().split(': ')])
             lines.append(d)
         else:
-            break    
+            break 
     return lines

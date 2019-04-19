@@ -26,9 +26,12 @@ prifile.close()
 '''
 
 def main():
-    verify_tools.sysInfo()  # 获取设备指纹信息
-    encrypt_tools.sysInfoEncrypt('sys.info', '2019-04-15')  # 根据设备指纹信息和有效期生成license
-    valid = verify_tools.sysInfoVerify('sys.license')  # license验证
+    verify_tools.writeDeviceDingerprint()  # 获取设备指纹信息
+    encrypt_tools.fingerprintEncryptWriteLicense( validTime='2019-04-15',publicKeyFile='public.pem')  # 根据设备指纹信息和有效期生成license
+    valid = verify_tools.licenseVerify()  # license验证
+    #verify_tools.writeDeviceDingerprint(dingerprintFilePath='',dingerprintFileFileName="sys.info")  # 获取设备指纹信息
+    #encrypt_tools.fingerprintEncryptWriteLicense(fingerprintFilePath='',fingerprintFileName='sys.info', validTime='2019-04-15',publicKeyFile='public.pem',licenseFilePath='',licenseFileName="sys.license")  # 根据设备指纹信息和有效期生成license
+    #valid = verify_tools.licenseVerify(licensePath='',licenseFileName='sys.license')  # license验证
     print('验证结果：', valid)
 
       
